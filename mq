@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-08T08:25:06.716Z" agent="5.0 (Windows)" etag="n8zK3HqtGaU3aYoZUPSm" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-08T08:55:53.290Z" agent="5.0 (Windows)" etag="qbnqnWbyyDMj-CzwTQWY" version="14.5.7" type="github">
   <diagram id="tGNLOWB6yCUb_Ep6Uf0I" name="第 1 页">
-    <mxGraphModel dx="1254" dy="4270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1254" dy="5439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -664,6 +664,65 @@
         </mxCell>
         <mxCell id="ylrvNi4-vRyFRi7096Me-83" value="" style="shape=cross;whiteSpace=wrap;html=1;sketch=1;strokeColor=#b85450;fillColor=#f8cecc;gradientColor=#ea6b66;fontSize=15;rotation=45;" vertex="1" parent="1">
           <mxGeometry x="520" y="-3240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ylrvNi4-vRyFRi7096Me-86" value="RabbitMQ丢失消息的处理方案" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};treeFolding=1;treeMoving=1;sketch=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="105" y="-3440" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ylrvNi4-vRyFRi7096Me-87" value="生产者丢失消息" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;fillColor=#d5e8d4;fontSize=15;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-3520" width="142" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ylrvNi4-vRyFRi7096Me-88" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=15;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ylrvNi4-vRyFRi7096Me-87" parent="1" source="ylrvNi4-vRyFRi7096Me-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="328" y="-3440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ylrvNi4-vRyFRi7096Me-89" value="MQ丢失消息" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;fillColor=#d5e8d4;gradientColor=none;fontSize=15;fontColor=#000000;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-3435" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ylrvNi4-vRyFRi7096Me-90" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=15;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ylrvNi4-vRyFRi7096Me-89" parent="1" source="ylrvNi4-vRyFRi7096Me-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="489" y="-3350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ylrvNi4-vRyFRi7096Me-91" value="消费者丢失消息" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;fillColor=#d5e8d4;gradientColor=none;fontSize=15;fontColor=#000000;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="437" y="-3342" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ylrvNi4-vRyFRi7096Me-92" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=15;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ylrvNi4-vRyFRi7096Me-91" parent="1" source="ylrvNi4-vRyFRi7096Me-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="413" y="-3310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ylrvNi4-vRyFRi7096Me-93" value="方案1:开始RabbitMQ事务(不推荐)" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;fillColor=#d5e8d4;gradientColor=none;fontSize=15;fontColor=#000000;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="775" y="-3580" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ylrvNi4-vRyFRi7096Me-94" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=15;fontColor=#000000;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" target="ylrvNi4-vRyFRi7096Me-93" parent="1" source="ylrvNi4-vRyFRi7096Me-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="638" y="-3476" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ylrvNi4-vRyFRi7096Me-97" value="&lt;div&gt;方案2:开启confirm模式(推荐)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;fillColor=#d5e8d4;gradientColor=none;fontSize=15;fontColor=#000000;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="775" y="-3510" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ylrvNi4-vRyFRi7096Me-98" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=15;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ylrvNi4-vRyFRi7096Me-97" parent="1" source="ylrvNi4-vRyFRi7096Me-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="798" y="-3420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ylrvNi4-vRyFRi7096Me-99" value="&lt;div&gt;方案:开启RabbitMQ持久化&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;fillColor=#d5e8d4;fontSize=15;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="775" y="-3435" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ylrvNi4-vRyFRi7096Me-100" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=15;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ylrvNi4-vRyFRi7096Me-99" parent="1" source="ylrvNi4-vRyFRi7096Me-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="-3370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ylrvNi4-vRyFRi7096Me-101" value="方案:关闭RabbitMQ自动ack改为手动ack" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};sketch=1;fillColor=#d5e8d4;fontSize=15;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-3342" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ylrvNi4-vRyFRi7096Me-102" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;fontSize=15;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ylrvNi4-vRyFRi7096Me-101" parent="1" source="ylrvNi4-vRyFRi7096Me-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="738" y="-3300" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
