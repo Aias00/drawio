@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2021-04-08T14:25:50.765Z" agent="5.0 (Windows)" version="14.5.7" etag="7DyBGc0wfQoouQDmtmaK" type="github"><diagram id="m2NRQsj5ADli3W2-vhvF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-09T01:55:14.738Z" agent="5.0 (Windows)" etag="UVkTO-op9R3WRWIT20tm" version="14.5.7" type="github">
+  <diagram id="m2NRQsj5ADli3W2-vhvF" name="第 1 页">
+    <mxGraphModel dx="1254" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PrBq1mW5V0x01uElvsXi-1" value="" style="shape=table;html=1;whiteSpace=wrap;startSize=0;container=1;collapsible=0;childLayout=tableLayout;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="370" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PrBq1mW5V0x01uElvsXi-2" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PrBq1mW5V0x01uElvsXi-1">
+          <mxGeometry width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PrBq1mW5V0x01uElvsXi-3" value="1bit" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#d5e8d4;top=0;left=0;bottom=0;right=0;strokeColor=#82b366;" vertex="1" parent="PrBq1mW5V0x01uElvsXi-2">
+          <mxGeometry width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PrBq1mW5V0x01uElvsXi-4" value="41bit" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;strokeColor=#6c8ebf;" vertex="1" parent="PrBq1mW5V0x01uElvsXi-2">
+          <mxGeometry x="40" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PrBq1mW5V0x01uElvsXi-5" value="10bit" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#ffe6cc;top=0;left=0;bottom=0;right=0;strokeColor=#d79b00;" vertex="1" parent="PrBq1mW5V0x01uElvsXi-2">
+          <mxGeometry x="290" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PrBq1mW5V0x01uElvsXi-6" value="12bit" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=#fff2cc;top=0;left=0;bottom=0;right=0;strokeColor=#d6b656;" vertex="1" parent="PrBq1mW5V0x01uElvsXi-2">
+          <mxGeometry x="360" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PrBq1mW5V0x01uElvsXi-7" value="统一0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="430" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PrBq1mW5V0x01uElvsXi-8" value="毫秒的时间戳，可以表示69年的时间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="430" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PrBq1mW5V0x01uElvsXi-9" value="5bit代表机房Id,5bit代表机器id。最多代表32个机房，每个机房最多代表32台机器" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="220" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="PrBq1mW5V0x01uElvsXi-10" value="同一毫秒内的id，zui多4096个不同的id，自增模式" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="440" y="410" width="120" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
