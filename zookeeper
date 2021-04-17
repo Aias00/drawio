@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-17T06:47:27.302Z" agent="5.0 (Windows)" etag="oa4jZXJfiQEqp23qPQJW" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-17T07:29:21.351Z" agent="5.0 (Windows)" etag="ecphg6M3z0d_MwZOF6FC" version="14.5.8" type="github">
   <diagram id="LLih-IENVY9RxRS7VIjT" name="第 1 页">
-    <mxGraphModel dx="1045" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2090" dy="1272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -380,6 +380,69 @@
         </mxCell>
         <mxCell id="hffSUrg6R7nwEm-AxTDm-132" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;sketch=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="348.5" y="3480" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="hffSUrg6R7nwEm-AxTDm-137" target="hffSUrg6R7nwEm-AxTDm-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-137" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="348.5" y="3660" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-142" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="hffSUrg6R7nwEm-AxTDm-139" target="hffSUrg6R7nwEm-AxTDm-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-139" value="将自身epoch-1，推荐自己（zxid，id）作为leader发送给集群" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="303.5" y="3750" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="hffSUrg6R7nwEm-AxTDm-140" target="hffSUrg6R7nwEm-AxTDm-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="hffSUrg6R7nwEm-AxTDm-140" target="hffSUrg6R7nwEm-AxTDm-143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-140" value="等待" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="303.5" y="3890" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-143" value="等待一个周期结束" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="158.5" y="4050" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="hffSUrg6R7nwEm-AxTDm-144" target="hffSUrg6R7nwEm-AxTDm-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-149" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="hffSUrg6R7nwEm-AxTDm-148">
+          <mxGeometry x="-0.2758" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-144" value="是否收到其他server的回复" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="480" y="4050" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="hffSUrg6R7nwEm-AxTDm-147" target="hffSUrg6R7nwEm-AxTDm-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-152" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="hffSUrg6R7nwEm-AxTDm-151">
+          <mxGeometry x="-0.2905" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="hffSUrg6R7nwEm-AxTDm-147" target="hffSUrg6R7nwEm-AxTDm-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-154" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="hffSUrg6R7nwEm-AxTDm-153">
+          <mxGeometry x="-0.4975" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-147" value="判断自身当前epoch是否合法" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="480" y="4170" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fontSize=16;" edge="1" parent="1" source="hffSUrg6R7nwEm-AxTDm-150" target="hffSUrg6R7nwEm-AxTDm-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-150" value="更新自身epoch为对方推荐的zxid，epoch，id" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="475" y="4290" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hffSUrg6R7nwEm-AxTDm-155" value="向对方发送ack消息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="475" y="4420" width="190" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
