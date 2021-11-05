@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2021-11-05T06:06:27.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" version="15.6.8" etag="Jkwd1UoVRqv4JEjPYO74" type="github"><diagram id="jhkhC-cqcJtzW16_N71U">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-05T06:34:05.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="XWiG32R8TZeFe7taOQrQ" version="15.6.8" type="github">
+  <diagram id="jhkhC-cqcJtzW16_N71U" name="Page-1">
+    <mxGraphModel dx="813" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mxDa3w3Hn8uKAEnWZ8Se-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="450" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="mxDa3w3Hn8uKAEnWZ8Se-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mxDa3w3Hn8uKAEnWZ8Se-2" value="expos-demo-api&lt;br&gt;(提供内部dubbo-server定义)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mxDa3w3Hn8uKAEnWZ8Se-3" value="expos-demo-server&lt;br&gt;(提供dubbo-service实现+controller)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="410" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mxDa3w3Hn8uKAEnWZ8Se-4" value="expos-demo-listener&lt;br&gt;(监听服务)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mxDa3w3Hn8uKAEnWZ8Se-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="180" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mxDa3w3Hn8uKAEnWZ8Se-6" value="expos-module-a-api&lt;br&gt;(提供内部dubbo-server定义)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mxDa3w3Hn8uKAEnWZ8Se-7" value="expos-module-a-server&lt;br&gt;(提供dubbo-service实现+controller)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="410" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mxDa3w3Hn8uKAEnWZ8Se-8" value="expos-module-a-listener&lt;br&gt;(监听服务)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mxDa3w3Hn8uKAEnWZ8Se-10" value="expos-demo模块" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="554" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mxDa3w3Hn8uKAEnWZ8Se-11" value="expos-module-a模块" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="555" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mxDa3w3Hn8uKAEnWZ8Se-14" value="expos-project-api&lt;br&gt;(提供对外dubbo-server定义)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="610" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mxDa3w3Hn8uKAEnWZ8Se-15" value="expos-project-rest&lt;br&gt;(提供对外controller+对外dubbo实现)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="611" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mxDa3w3Hn8uKAEnWZ8Se-16" value="expos-project-common&lt;br&gt;(工程通用常量、枚举、工具类等)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="700" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
