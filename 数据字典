@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2021-11-08T07:31:10.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" version="15.7.0" etag="VXSlHaAAKEiLiH20cP3c" type="github"><diagram id="-R1wf5r5sWWupIV3d3Mp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-08T07:45:22.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="Yyeeivo4Xy9r9yC051S9" version="15.7.0" type="github">
+  <diagram id="-R1wf5r5sWWupIV3d3Mp" name="Page-1">
+    <mxGraphModel dx="813" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GkBslrHqhx372l0i8s6o-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="380" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-2" value="expos-dictionary-client" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="372" y="357" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-4" value="本地缓存：定时更新+过期时间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="390" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-6" value="dubbo提供者" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="430" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GkBslrHqhx372l0i8s6o-8" target="GkBslrHqhx372l0i8s6o-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-8" value="暴露更新本地缓存的dubbo接口，接口调用方式：广播" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="410" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-10" value="dubbo消费者" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="430" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.529;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GkBslrHqhx372l0i8s6o-12" target="GkBslrHqhx372l0i8s6o-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-12" value="消费服务端暴露的接口，即获取字典内容" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="530" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-15" value="注解切面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="390" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GkBslrHqhx372l0i8s6o-16" target="GkBslrHqhx372l0i8s6o-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-16" value="字典翻译切面，查本地缓存进行翻译的逻辑，查询不到则返回原值" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="270" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="387" width="260" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-19" value="expos-dictionary-server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="720" y="360" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-20" value="dubbo提供者" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="440" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GkBslrHqhx372l0i8s6o-21" target="GkBslrHqhx372l0i8s6o-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-21" value="暴露获取字典内容的接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="687.5" y="530" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-23" value="dubbo消费者" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="440" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GkBslrHqhx372l0i8s6o-24" target="GkBslrHqhx372l0i8s6o-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-24" value="调用客户端更新本地缓存的接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="530" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GkBslrHqhx372l0i8s6o-26" value="查询数据库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="400" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
