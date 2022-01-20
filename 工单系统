@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T02:47:31.217Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ZNrB-4RHu46T7LnSmkbQ" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-20T03:15:04.695Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Y6kUU-FLquOd73xXDm-D" version="16.2.4" type="github">
   <diagram id="ONO-o-4tfnVmAy59KYSt" name="第 1 页">
-    <mxGraphModel dx="2100" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1506" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,9 +9,6 @@
         </mxCell>
         <mxCell id="ojFSvud0ZV6Az0pI6KlK-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-600" y="310" width="290" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="ojFSvud0ZV6Az0pI6KlK-2" value="业务表单" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="-470" y="420" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ojFSvud0ZV6Az0pI6KlK-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ojFSvud0ZV6Az0pI6KlK-4" target="ojFSvud0ZV6Az0pI6KlK-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -25,8 +22,8 @@
         <mxCell id="ojFSvud0ZV6Az0pI6KlK-6" value="绘图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-590" y="355" width="90" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="ojFSvud0ZV6Az0pI6KlK-7" value="为每个节点指定审批人，根据角色、部门、用户组" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="-470" y="355" width="140" height="60" as="geometry" />
+        <mxCell id="ojFSvud0ZV6Az0pI6KlK-7" value="为每个节点指定审批人，根据角色、部门、用户组" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-470" y="355" width="140" height="125" as="geometry" />
         </mxCell>
         <mxCell id="ojFSvud0ZV6Az0pI6KlK-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ojFSvud0ZV6Az0pI6KlK-11" target="ojFSvud0ZV6Az0pI6KlK-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -40,20 +37,20 @@
         <mxCell id="ojFSvud0ZV6Az0pI6KlK-11" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="300" width="220" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="ojFSvud0ZV6Az0pI6KlK-12" value="流程结束回调业务系统" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="ojFSvud0ZV6Az0pI6KlK-12" value="流程结束回调业务系统" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="420" y="335" width="80" height="150" as="geometry" />
         </mxCell>
         <mxCell id="ojFSvud0ZV6Az0pI6KlK-17" value="实线：代表可以在工单系统页面中操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="-460" y="90" width="400" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ojFSvud0ZV6Az0pI6KlK-18" value="虚线：代表可以在客户端操作或者在工单系统页面中操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="-440" y="140" width="400" height="20" as="geometry" />
+        <mxCell id="ojFSvud0ZV6Az0pI6KlK-18" value="虚线：代表可以在客户端操作中操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-536" y="120" width="530" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lTiNHmUq_PcP2NlNFcfF-1" target="lTiNHmUq_PcP2NlNFcfF-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-1" value="查看工单流转详情及参数信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="10" y="630" width="140" height="60" as="geometry" />
+          <mxGeometry x="40" y="630" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lTiNHmUq_PcP2NlNFcfF-3" target="lTiNHmUq_PcP2NlNFcfF-7">
           <mxGeometry relative="1" as="geometry" />
@@ -62,19 +59,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-3" value="驳回到指定节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="630" width="140" height="60" as="geometry" />
+          <mxGeometry x="280" y="630" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-5" value="驳回到发起节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="160" y="820" width="140" height="60" as="geometry" />
+          <mxGeometry x="190" y="820" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-7" value="驳回到发起节点之外的其他节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="344" y="820" width="140" height="60" as="geometry" />
+          <mxGeometry x="374" y="820" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lTiNHmUq_PcP2NlNFcfF-14" value="发起流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-210" y="310" width="90" height="30" as="geometry" />
+        <mxCell id="lTiNHmUq_PcP2NlNFcfF-14" value="业务系统用户发起流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-240" y="310" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-16" value="指定流程发起工单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="350" width="90" height="135" as="geometry" />
+          <mxGeometry x="-220" y="350" width="90" height="135" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-17" value="指定下一个节点的审批人、部门、角色、用户组等" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-120" y="350" width="140" height="60" as="geometry" />
@@ -83,10 +80,10 @@
           <mxGeometry x="-120" y="420" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-19" value="绿色：代表已经实现的功能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="190" width="400" height="20" as="geometry" />
+          <mxGeometry x="-510" y="156" width="400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-20" value="红色：代表未实现或者存在问题的功能" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-461" y="229" width="400" height="20" as="geometry" />
+          <mxGeometry x="-460" y="191" width="400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-21" value="审批流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="140" y="320" width="90" height="30" as="geometry" />
@@ -94,11 +91,11 @@
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-22" value="指定下一个节点的审批人、部门、角色、用户组等" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="170" y="350" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lTiNHmUq_PcP2NlNFcfF-23" value="业务表单" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="lTiNHmUq_PcP2NlNFcfF-23" value="业务表单" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="170" y="425" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-24" value="已完成节点、当前节点、未流转到节点、已驳回节点区分展示" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="820" width="140" height="60" as="geometry" />
+          <mxGeometry y="820" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
