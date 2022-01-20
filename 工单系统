@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T02:29:49.768Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="6CeyNuI__2hzxEuX6vEP" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-20T02:35:15.535Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="eC1wnL0yBqk_TZ6eRlu9" version="16.2.4" type="github">
   <diagram id="ONO-o-4tfnVmAy59KYSt" name="第 1 页">
-    <mxGraphModel dx="1845" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1899" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="ojFSvud0ZV6Az0pI6KlK-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-470" y="310" width="290" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="ojFSvud0ZV6Az0pI6KlK-2" value="业务表单" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+        <mxCell id="ojFSvud0ZV6Az0pI6KlK-2" value="业务表单" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="-340" y="420" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ojFSvud0ZV6Az0pI6KlK-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ojFSvud0ZV6Az0pI6KlK-4" target="ojFSvud0ZV6Az0pI6KlK-11" edge="1">
@@ -34,10 +34,13 @@
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ojFSvud0ZV6Az0pI6KlK-11" target="lTiNHmUq_PcP2NlNFcfF-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="lTiNHmUq_PcP2NlNFcfF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ojFSvud0ZV6Az0pI6KlK-11" target="lTiNHmUq_PcP2NlNFcfF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ojFSvud0ZV6Az0pI6KlK-11" value="审批流程&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%8F%91%E8%B5%B7%E6%B5%81%E7%A8%8B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3Bdashed%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22420%22%20y%3D%22150%22%20width%3D%2280%22%20height%3D%22150%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="335" width="80" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="ojFSvud0ZV6Az0pI6KlK-12" value="流程结束回调业务系统" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="ojFSvud0ZV6Az0pI6KlK-12" value="流程结束回调业务系统" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="290" y="335" width="80" height="150" as="geometry" />
         </mxCell>
         <mxCell id="ojFSvud0ZV6Az0pI6KlK-17" value="实线：代表可以在工单系统页面中操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontSize=20;" parent="1" vertex="1">
@@ -46,8 +49,23 @@
         <mxCell id="ojFSvud0ZV6Az0pI6KlK-18" value="虚线：代表可以在客户端操作或者在工单系统页面中操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="-440" y="140" width="400" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="lTiNHmUq_PcP2NlNFcfF-1" value="查看工单流转详情及参数信息" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="420" width="140" height="60" as="geometry" />
+        <mxCell id="lTiNHmUq_PcP2NlNFcfF-1" value="查看工单流转详情及参数信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="630" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lTiNHmUq_PcP2NlNFcfF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lTiNHmUq_PcP2NlNFcfF-3" target="lTiNHmUq_PcP2NlNFcfF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lTiNHmUq_PcP2NlNFcfF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="lTiNHmUq_PcP2NlNFcfF-3" target="lTiNHmUq_PcP2NlNFcfF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lTiNHmUq_PcP2NlNFcfF-3" value="驳回到指定节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="630" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lTiNHmUq_PcP2NlNFcfF-5" value="驳回到发起节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="414" y="580" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lTiNHmUq_PcP2NlNFcfF-7" value="驳回到发起节点之外的其他节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="690" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
