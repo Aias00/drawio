@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-20T03:15:04.695Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Y6kUU-FLquOd73xXDm-D" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-20T03:16:03.510Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="3o8X9--JEtJ8zKGs-7Y7" version="16.2.4" type="github">
   <diagram id="ONO-o-4tfnVmAy59KYSt" name="第 1 页">
     <mxGraphModel dx="1506" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-1" value="查看工单流转详情及参数信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="40" y="630" width="140" height="60" as="geometry" />
+          <mxGeometry x="50" y="630" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lTiNHmUq_PcP2NlNFcfF-3" target="lTiNHmUq_PcP2NlNFcfF-7">
           <mxGeometry relative="1" as="geometry" />
@@ -59,13 +59,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-3" value="驳回到指定节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="630" width="140" height="60" as="geometry" />
+          <mxGeometry x="290" y="630" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-5" value="驳回到发起节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="190" y="820" width="140" height="60" as="geometry" />
+          <mxGeometry x="200" y="820" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-7" value="驳回到发起节点之外的其他节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="374" y="820" width="140" height="60" as="geometry" />
+          <mxGeometry x="384" y="820" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-14" value="业务系统用户发起流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-240" y="310" width="160" height="30" as="geometry" />
@@ -95,7 +95,7 @@
           <mxGeometry x="170" y="425" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lTiNHmUq_PcP2NlNFcfF-24" value="已完成节点、当前节点、未流转到节点、已驳回节点区分展示" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry y="820" width="140" height="60" as="geometry" />
+          <mxGeometry x="10" y="820" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
