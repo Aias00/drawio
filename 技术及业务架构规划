@@ -1,14 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T05:31:31.145Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="oXCKbTEOs8-S8J9Xi5Fk" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-23T05:35:47.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="dLQ6l4mGeZxK615GgHJz" version="16.5.6" type="github">
   <diagram id="XIgr7EEjr0lEJOsf8_Sg" name="第 1 页">
-    <mxGraphModel dx="1018" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="e_iHy6aClCVTCkqui4QN-1" value="用户模块" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;rounded=1;sketch=1;" vertex="1" parent="1">
+        <mxCell id="e_iHy6aClCVTCkqui4QN-1" value="用户模块" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;rounded=1;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="e_iHy6aClCVTCkqui4QN-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=1;" vertex="1" parent="1">
+        <mxCell id="e_iHy6aClCVTCkqui4QN-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="394" y="200" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMKyntjR7OlmnDQgtkV-1" value="用户账户基本信息" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="185" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMKyntjR7OlmnDQgtkV-2" value="多账号登陆体系" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="225" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMKyntjR7OlmnDQgtkV-3" value="签到功能" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="265" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMKyntjR7OlmnDQgtkV-4" value="" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="305" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMKyntjR7OlmnDQgtkV-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;sketch=1;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="550" y="155" width="20" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMKyntjR7OlmnDQgtkV-6" value="账号密码登陆" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="145" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMKyntjR7OlmnDQgtkV-7" value="手机号短信验证码登陆" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="185" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMKyntjR7OlmnDQgtkV-8" value="邮箱验证码登陆" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="225" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMKyntjR7OlmnDQgtkV-9" value="微信授权登陆" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="265" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMKyntjR7OlmnDQgtkV-10" value="微博授权登陆" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="580" y="305" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
