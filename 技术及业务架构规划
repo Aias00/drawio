@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-23T05:35:47.090Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="dLQ6l4mGeZxK615GgHJz" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-23T05:36:33.899Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="GXL2jHwVOzP01ISr4wd4" version="16.5.6" type="github">
   <diagram id="XIgr7EEjr0lEJOsf8_Sg" name="第 1 页">
     <mxGraphModel dx="1018" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,6 +39,12 @@
         </mxCell>
         <mxCell id="IfMKyntjR7OlmnDQgtkV-10" value="微博授权登陆" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="580" y="305" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMKyntjR7OlmnDQgtkV-12" value="技术架构" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IfMKyntjR7OlmnDQgtkV-13" value="系统交互:feign" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="650" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
