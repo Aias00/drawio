@@ -1,1 +1,164 @@
-<mxfile host="app.diagrams.net" modified="2022-03-13T02:59:30.419Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="16.6.4" etag="yKh764wLfdwEqwF1_FfF" type="github"><diagram id="EZ0MVM2tygQiTeLyWJ20">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-13T03:48:02.297Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="QfXVq0QOiH1Qc1D2phu4" version="16.6.4" type="github">
+  <diagram id="EZ0MVM2tygQiTeLyWJ20" name="第 1 页">
+    <mxGraphModel dx="1018" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-43" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="30" y="500" width="640" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cLiA5apVaYwDBtpiOyLd-2" target="cLiA5apVaYwDBtpiOyLd-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-2" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="110" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cLiA5apVaYwDBtpiOyLd-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-3" value="设置短信验证码为123456" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cLiA5apVaYwDBtpiOyLd-4" target="cLiA5apVaYwDBtpiOyLd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-6" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="cLiA5apVaYwDBtpiOyLd-5">
+          <mxGeometry x="-0.0162" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cLiA5apVaYwDBtpiOyLd-4" target="cLiA5apVaYwDBtpiOyLd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-11" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="cLiA5apVaYwDBtpiOyLd-10">
+          <mxGeometry x="-0.1625" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-4" value="用户来源是否&amp;gt;100" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="200" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cLiA5apVaYwDBtpiOyLd-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-17" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="cLiA5apVaYwDBtpiOyLd-16">
+          <mxGeometry x="-0.1" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cLiA5apVaYwDBtpiOyLd-9" target="cLiA5apVaYwDBtpiOyLd-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-48" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="cLiA5apVaYwDBtpiOyLd-47">
+          <mxGeometry x="-0.1672" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-9" value="短信验证码是否为空" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="360" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cLiA5apVaYwDBtpiOyLd-23" target="cLiA5apVaYwDBtpiOyLd-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-33" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="cLiA5apVaYwDBtpiOyLd-26">
+          <mxGeometry x="-0.06" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cLiA5apVaYwDBtpiOyLd-23" target="cLiA5apVaYwDBtpiOyLd-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="550" />
+              <mxPoint x="590" y="890" />
+              <mxPoint x="325" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-39" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="cLiA5apVaYwDBtpiOyLd-38">
+          <mxGeometry x="-0.1235" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-23" value="是否是测试环境" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="510" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cLiA5apVaYwDBtpiOyLd-25" target="cLiA5apVaYwDBtpiOyLd-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-34" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="cLiA5apVaYwDBtpiOyLd-28">
+          <mxGeometry x="0.14" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cLiA5apVaYwDBtpiOyLd-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-41" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="cLiA5apVaYwDBtpiOyLd-40">
+          <mxGeometry x="0.0337" y="-2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-25" value="手机号码是否在白名单中" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="640" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-37" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cLiA5apVaYwDBtpiOyLd-27" target="cLiA5apVaYwDBtpiOyLd-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cLiA5apVaYwDBtpiOyLd-27" target="cLiA5apVaYwDBtpiOyLd-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-53" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="cLiA5apVaYwDBtpiOyLd-52">
+          <mxGeometry x="-0.2541" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-27" value="短信验证码是否校验通过" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="770" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-55" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cLiA5apVaYwDBtpiOyLd-36" target="cLiA5apVaYwDBtpiOyLd-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="cLiA5apVaYwDBtpiOyLd-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-36" value="对应公司下手机号是否已注册" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="1310" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-44" value="校验验证码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="60" y="630" width="80" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-46" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="570" y="375" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-51" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="90" y="785" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-56" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="590" y="930" width="480" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-57" value="注册逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="610" y="960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-58" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="800" y="960" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cLiA5apVaYwDBtpiOyLd-61" value="执行登陆" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="265" y="1900" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
