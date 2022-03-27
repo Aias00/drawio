@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-27T11:10:48.923Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="UUQab2GnrlMLU-OV-qAC" version="17.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-27T14:24:50.273Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.83 Safari/537.36" etag="NvBUt8HTBLVBTV15USF7" version="17.2.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1273" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -935,8 +935,45 @@
         <mxCell id="cavRAeg5umnz87ZM6FMu-289" value="更新用户信息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3490" y="2590" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="cavRAeg5umnz87ZM6FMu-296" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cavRAeg5umnz87ZM6FMu-292" target="cavRAeg5umnz87ZM6FMu-295">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cavRAeg5umnz87ZM6FMu-292" value="保存用户参与裂变活动的信息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3490" y="2710" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cavRAeg5umnz87ZM6FMu-298" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cavRAeg5umnz87ZM6FMu-295" target="cavRAeg5umnz87ZM6FMu-297">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cavRAeg5umnz87ZM6FMu-295" value="获取活动信息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3490" y="2830" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cavRAeg5umnz87ZM6FMu-300" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cavRAeg5umnz87ZM6FMu-297" target="cavRAeg5umnz87ZM6FMu-302">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3700" y="3010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cavRAeg5umnz87ZM6FMu-301" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cavRAeg5umnz87ZM6FMu-300">
+          <mxGeometry x="-0.0545" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cavRAeg5umnz87ZM6FMu-297" value="当前参与活动阶段是否大于1" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3500" y="2970" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cavRAeg5umnz87ZM6FMu-304" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cavRAeg5umnz87ZM6FMu-302" target="cavRAeg5umnz87ZM6FMu-303">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cavRAeg5umnz87ZM6FMu-307" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cavRAeg5umnz87ZM6FMu-302" target="cavRAeg5umnz87ZM6FMu-306">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cavRAeg5umnz87ZM6FMu-302" value="活动是否不支持单证用户 &amp;amp;&amp;amp; 当前用户是单证用户" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3722" y="2970" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cavRAeg5umnz87ZM6FMu-303" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3940" y="2990" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cavRAeg5umnz87ZM6FMu-306" value="根据用户身份证号和公司id查询用户列表（包含已删除的）" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3712" y="3150" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
