@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-28T14:18:04.744Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="gDhjJVw1tY5C51hYgGOv" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T13:19:52.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36 Edg/99.0.1150.55" etag="7TD4vivwe9KYmh36Kor9" version="17.2.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1078,11 +1078,60 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="3e033aqY1cborIuUUs50-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3e033aqY1cborIuUUs50-34" target="3e033aqY1cborIuUUs50-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3e033aqY1cborIuUUs50-34" value="相同的邀请人和呗邀请人，是否存在相同类型的互动记录" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3220" y="4430" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3e033aqY1cborIuUUs50-36" value="结束，不发放奖励" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2960" y="4450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3e033aqY1cborIuUUs50-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3e033aqY1cborIuUUs50-39" target="3e033aqY1cborIuUUs50-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3e033aqY1cborIuUUs50-50" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3e033aqY1cborIuUUs50-45">
+          <mxGeometry x="-0.2381" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3e033aqY1cborIuUUs50-39" value="查询到的CampaignItem是否为空，即没有获取到对应的奖励项" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3220" y="4596" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3e033aqY1cborIuUUs50-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="3e033aqY1cborIuUUs50-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3220" y="4636" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3e033aqY1cborIuUUs50-42" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3e033aqY1cborIuUUs50-41">
+          <mxGeometry x="-0.3143" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3e033aqY1cborIuUUs50-43" value="保存裂变活动参与信息，结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2960" y="4616" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3e033aqY1cborIuUUs50-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3e033aqY1cborIuUUs50-44" target="3e033aqY1cborIuUUs50-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3e033aqY1cborIuUUs50-44" value="判断是否是发放现金" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3220" y="4760" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3e033aqY1cborIuUUs50-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="3e033aqY1cborIuUUs50-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3220" y="4800" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3e033aqY1cborIuUUs50-47" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3e033aqY1cborIuUUs50-46">
+          <mxGeometry x="-0.3143" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3e033aqY1cborIuUUs50-48" value="保存裂变互动参与信息，打印日志，结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2960" y="4780" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3e033aqY1cborIuUUs50-51" value="发送优惠券消息，保存裂变活动参与信息，结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3210" y="4960" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
