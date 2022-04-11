@@ -1,1 +1,255 @@
-<mxfile host="app.diagrams.net" modified="2022-04-08T01:39:07.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="17.2.5" etag="pJFtk0O5pGtn2laSiYnf" type="github"><diagram id="0Q6OLW9SClku-emrIJz0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-11T05:34:49.071Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="hhkj7ce0ipqlUo28KDI3" version="17.2.5" type="github">
+  <diagram id="0Q6OLW9SClku-emrIJz0" name="第 1 页">
+    <mxGraphModel dx="1273" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LDFAKskl1DsgmIF-JNML-6" value="系统A页面" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="LDFAKskl1DsgmIF-JNML-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="1060" as="sourcePoint" />
+            <mxPoint x="160" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-10" value="系统A后台服务" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="1060" as="sourcePoint" />
+            <mxPoint x="399.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="320" as="sourcePoint" />
+            <mxPoint x="400" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-13" value="访问" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-12">
+          <mxGeometry x="-0.075" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="160" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-18" value="返回未登录提示" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-17">
+          <mxGeometry x="-0.075" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-19" value="认证中心页面" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1057" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-20" value="认证中心后台" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;sketch=1;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-21" value="系统B后台服务" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-22" value="系统B页面" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="1060" as="sourcePoint" />
+            <mxPoint x="679.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="1060" as="sourcePoint" />
+            <mxPoint x="899.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1117" y="1050" as="sourcePoint" />
+            <mxPoint x="1116.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1350" y="1040" as="sourcePoint" />
+            <mxPoint x="1350" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="480" as="sourcePoint" />
+            <mxPoint x="1120" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-28" value="跳转认证中心页面" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-27">
+          <mxGeometry x="-0.8021" relative="1" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="520" as="sourcePoint" />
+            <mxPoint x="1350" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-32" value="登陆" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-31">
+          <mxGeometry x="-0.0957" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-33" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="860" as="sourcePoint" />
+            <mxPoint x="400" y="920" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="860" />
+              <mxPoint x="500" y="920" />
+              <mxPoint x="400" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-55" value="内部业务逻辑" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-33">
+          <mxGeometry x="-0.0096" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1350" y="630" as="sourcePoint" />
+            <mxPoint x="1120" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-36" value="返回给登陆页面" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-35">
+          <mxGeometry x="-0.0957" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="650" as="sourcePoint" />
+            <mxPoint x="160" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-38" value="返回系统A页面" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-37">
+          <mxGeometry x="-0.8021" relative="1" as="geometry">
+            <mxPoint x="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="710" as="sourcePoint" />
+            <mxPoint x="400" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-40" value="访问" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-39">
+          <mxGeometry x="-0.075" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="sourcePoint" />
+            <mxPoint x="1350" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-42" value="判断是否登陆" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-41">
+          <mxGeometry x="-0.7874" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-43" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1350" y="350" as="sourcePoint" />
+            <mxPoint x="1350" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1450" y="350" />
+              <mxPoint x="1450" y="410" />
+              <mxPoint x="1350" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-45" value="校验登陆信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-43">
+          <mxGeometry x="-0.0308" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-46" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1350" y="430" as="sourcePoint" />
+            <mxPoint x="400" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-47" value="返回错误提示" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-46">
+          <mxGeometry x="-0.7874" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="740" as="sourcePoint" />
+            <mxPoint x="1350" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-49" value="判断是否登陆" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-48">
+          <mxGeometry x="-0.7874" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-50" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1350" y="810" as="sourcePoint" />
+            <mxPoint x="400" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-51" value="返回成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-50">
+          <mxGeometry x="-0.7874" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-53" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1350" y="554" as="sourcePoint" />
+            <mxPoint x="1350" y="614" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1450" y="554" />
+              <mxPoint x="1450" y="614" />
+              <mxPoint x="1350" y="614" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-54" value="登陆、生成token、写入request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-53">
+          <mxGeometry y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="960" as="sourcePoint" />
+            <mxPoint x="160" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-57" value="返回响应结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-56">
+          <mxGeometry x="-0.075" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-58" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="900" as="sourcePoint" />
+            <mxPoint x="900" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LDFAKskl1DsgmIF-JNML-59" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LDFAKskl1DsgmIF-JNML-58">
+          <mxGeometry x="0.0068" y="3" relative="1" as="geometry">
+            <mxPoint x="-1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
