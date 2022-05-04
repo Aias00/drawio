@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T12:22:07.903Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="AKQigS8nyLk_8WbfhI0Y" version="17.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-04T14:12:46.782Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="IV9Vmx6HpYNVv4I1LChp" version="17.4.1" type="github">
   <diagram id="C0ByczqNkwZ_WFdTS-sy" name="第 1 页">
-    <mxGraphModel dx="5917" dy="3240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1797" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -323,6 +323,136 @@
         </mxCell>
         <mxCell id="_OP369tNn35AtCk8HXyf-117" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;shadow=0;glass=0;" vertex="1" parent="1">
           <mxGeometry x="1425" y="1940" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-119" target="_OP369tNn35AtCk8HXyf-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-119" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2215" y="60" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-120" value="&lt;font color=&quot;#629755&quot;&gt;&lt;i&gt;为长租订单配车&lt;/i&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-121" target="_OP369tNn35AtCk8HXyf-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-121" value="根据订单id查询订单信息" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="196" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-123" target="_OP369tNn35AtCk8HXyf-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-131" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_OP369tNn35AtCk8HXyf-126">
+          <mxGeometry x="-0.1787" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-123" target="_OP369tNn35AtCk8HXyf-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-130" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_OP369tNn35AtCk8HXyf-129">
+          <mxGeometry x="-0.0862" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-123" value="订单是否已经被取消？" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;rounded=1;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="2148" y="340" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-125" target="_OP369tNn35AtCk8HXyf-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-134" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_OP369tNn35AtCk8HXyf-133">
+          <mxGeometry x="-0.1634" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-125" target="_OP369tNn35AtCk8HXyf-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-125" value="订单是否已经分配当前车辆？" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;rounded=1;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="2148" y="505" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-127" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="355" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-132" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="520" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-138" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-135" target="_OP369tNn35AtCk8HXyf-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-135" value="订单是否已经分配过车辆（属于修改配车）？" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;rounded=1;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="2147.5" y="670" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-137" target="_OP369tNn35AtCk8HXyf-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-137" value="获取原来分配的车辆信息" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-139" target="_OP369tNn35AtCk8HXyf-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-144" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_OP369tNn35AtCk8HXyf-143">
+          <mxGeometry x="-0.0533" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-139" target="_OP369tNn35AtCk8HXyf-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-139" value="原来分配的车辆信息是否存在？" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;rounded=1;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="2147.5" y="970" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-142" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="985" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-145" target="_OP369tNn35AtCk8HXyf-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-145" value="获取原来配车的记录信息" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="1140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-151" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-147" target="_OP369tNn35AtCk8HXyf-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-147" target="_OP369tNn35AtCk8HXyf-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-158" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;" vertex="1" connectable="0" parent="_OP369tNn35AtCk8HXyf-157">
+          <mxGeometry x="-0.3075" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-147" value="原来配车时，车辆是否是未发布状态？" style="rhombus;whiteSpace=wrap;html=1;sketch=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;fillColor=#dae8fc;rounded=1;shadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="2147.5" y="1290" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-150" target="_OP369tNn35AtCk8HXyf-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-150" value="将原来分配的车辆置为未发布状态" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=default;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-154" target="_OP369tNn35AtCk8HXyf-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-154" value="恢复车辆撤销发布时的记录" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="2180.5" y="1600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-156" target="_OP369tNn35AtCk8HXyf-159">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-156" value="释放车辆" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="2440" y="1450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=default;" edge="1" parent="1" source="_OP369tNn35AtCk8HXyf-159" target="_OP369tNn35AtCk8HXyf-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-159" value="从订单消息发送队列中移除消息" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="2180.5" y="1770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_OP369tNn35AtCk8HXyf-163" value="发送清除设备订单消息" style="whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="2180.5" y="1920" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
